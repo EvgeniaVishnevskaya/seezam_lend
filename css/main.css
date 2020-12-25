@@ -24,18 +24,25 @@ body{
 h1{
   font-family: Le Murmure;
   font-size: 96px;
+  position: relative;
+  z-index: 2;
 }
 h2{
   font-family: Yeseva One;
   font-size: 48px;
+  position: relative;
+  z-index: 2;
 }
 h3{
   font-family: CSTM;
-  font-size: 24px;
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
 }
 h4{
   font-family: Nunito;
   font-size: 14px;
+
 }
 h5{
   font-family: Le Murmure;
@@ -49,6 +56,7 @@ a{
   text-decoration: none;
   color: #002DF4;
 }
+
 .menu{
   display: flex;
   width: 1160px;
@@ -56,6 +64,8 @@ a{
   align-items: center;
   margin-top: 52px;
   margin-bottom: 44px;
+  position: relative;
+  z-index: 2;
 
 }
 .team{
@@ -70,7 +80,7 @@ a{
   margin-left: 150px;
   font-size: 64px;
   
-  margin-top: 292px;
+  margin-top: 362px;
   margin-bottom: 36px;
 }
 .stop{
@@ -108,7 +118,18 @@ a{
 .min-text p{
   text-align: center;
 }
-
+.back{
+  position: relative;
+  z-index: 1;
+  margin-top: -800px;
+  width: 100wv;
+}
+.box-3 .back{
+  position: relative;
+  z-index: 1;
+  margin-top: 0px;
+  width: 100vw;
+}
 .people{
   margin-top: 130px;
   margin-bottom: 130px;
@@ -121,11 +142,13 @@ a{
   
   text-align: center;
 }
+
 .txt h4{
   font-size: 40px;
   font-weight: 700;
   margin-left: 58px;
   width: 505px;
+  margin-bottom: 30px;
 
 }
 .help{
@@ -241,7 +264,7 @@ a{
 }
 .box{
   width: 100wv;
-  height: 1204px;
+  height: 905px;
   background-color: #002DF4;
   display: flex;
   align-items: flex-end;
@@ -249,8 +272,13 @@ a{
 
 }
 .box img{
-  margin-top: 220px;
+  margin-top: -65px;
   width: 100vw;;
+}
+#img{
+  margin-top: -695px;
+  height: 557px;
+
 }
 .futter{
   width: 100vw;
