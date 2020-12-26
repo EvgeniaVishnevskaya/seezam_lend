@@ -47,6 +47,7 @@ h4{
 h5{
   font-family: Le Murmure;
   font-size: 48px;
+  color: white;
 }
 p{
   font-family: Nunito;
@@ -54,6 +55,9 @@ p{
 }
 a{
   text-decoration: none;
+  color: #002DF4;
+}
+a:hover{
   color: #002DF4;
 }
 
@@ -79,13 +83,21 @@ a{
 .team h2{
   margin-left: 150px;
   font-size: 64px;
-  
+  font-family: Nunito;
+  font-weight: 800;
   margin-top: 362px;
   margin-bottom: 36px;
+  color: #FFFFFF;
 }
 .stop{
   margin-top: 70px;
   margin-bottom: 82px;
+}
+.menu a{
+  color: white;
+}
+.menu a:hover{
+  color: #002DF4;
 }
 .line{
   display: flex;
@@ -121,7 +133,7 @@ a{
 .back{
   position: relative;
   z-index: 1;
-  margin-top: -800px;
+  margin-top: -783px;
   width: 100wv;
 }
 .box-3 .back{
@@ -139,7 +151,7 @@ a{
   justify-content: space-around;
 }
 .character p{
-  
+  margin-top: 62px;
   text-align: center;
 }
 
@@ -239,7 +251,7 @@ a{
 .box-2{
   width: 100vw;
   height: 757px;
-  background-color: #002DF4;
+  background-color: #FFE500;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -249,13 +261,12 @@ a{
   margin-top: 188px;
   width: 1030px;
   line-height: 54px;
-  color: white;
   text-align: center;
   font-size: 40px;
 }
 .box-3{
   width: 100vw;
-  height: 757px;
+  height: 740px;
   background-color: #00A652;
   display: flex;
   align-items: center;
